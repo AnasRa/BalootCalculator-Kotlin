@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">النشرة</string>
+    <string name="confirm">انشر</string>
+    <string name="place_holder">Place Holder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
