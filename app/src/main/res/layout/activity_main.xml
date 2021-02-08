@@ -13,9 +13,9 @@
         android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/place_holder"
+        android:text="@string/TeamOne"
         android:textColor="#000"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:layout_marginTop="24dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="الموزع"
+        android:text="@string/dealer"
         android:textColor="#000"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,9 +43,9 @@
         android:layout_marginTop="8dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/place_holder"
+        android:text="@string/TeamTwo"
         android:textColor="#000"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
@@ -82,14 +82,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <!--    <ImageView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:src="@drawable/bc_image"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bc_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -111,7 +111,7 @@
         android:layout_marginBottom="8dp"
         android:layout_weight="1"
         android:background="@drawable/button_border"
-        android:text="انشر"
+        android:text="@string/count"
         android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <LinearLayout
         android:id="@+id/title2"
-        android:layout_below="@id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -16,30 +16,13 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="20sp"
-            android:text="قامت"
-            android:textColor="#750020"/>
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/title1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:textSize="23sp"
-            android:text="نتيجة الصكة"
+            android:text="@string/finished"
             android:textColor="#750020"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_below="@id/title1"
+        android:layout_below="@id/title2"
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -50,7 +33,7 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="20sp"
-            android:text="لهم" />
+            android:text="@string/TeamOne" />
 
         <TextView
             android:id="@+id/textView1"
@@ -59,14 +42,14 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:textSize="20sp"
-            android:text="لنا" />
+            android:text="@string/TeamTwo" />
 
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/title4"
-        android:layout_below="@id/title2"
+        android:layout_below="@id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView

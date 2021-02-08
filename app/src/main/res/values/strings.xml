@@ -4,5 +4,12 @@
     <string name="place_holder">Place Holder</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TeamOne">لهم</string>
+    <string name="dealer">الموزع</string>
+    <string name="TeamTwo">لنا</string>
+    <string name="count">انشر</string>
+    <string name="finished">قامت</string>
+    <string name="restart">إعادة اللعب</string>
+    <string name="back">تراجع</string>
 
 </resources>
